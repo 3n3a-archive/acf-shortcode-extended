@@ -3,7 +3,7 @@
 /**
  * ACF Shortcode Extended
  *
- * @package           ShortcodeExtended
+ * @package           ACFShortcodeExtended
  * @author            3n3a
  * @copyright         2023 3n3a
  * @license           GPL-2.0-or-later
@@ -59,7 +59,7 @@ if(!class_exists('ACFShortcodeExtended'))
     // override the native render_callback function to ensure ACF shortcodes run as expected.
     if(in_array($name, $validBlocks))
     {
-      $args['render_callback'] = [new ShortcodeExtended, 'render'];
+      $args['render_callback'] = [new ACFShortcodeExtended, 'render'];
     }
 
     return $args;
