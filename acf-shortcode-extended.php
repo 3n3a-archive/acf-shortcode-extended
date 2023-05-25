@@ -10,7 +10,7 @@
  *
  * @wordpress-plugin
  * Plugin Name:       ACF Shortcode Extended
- * Plugin URI:        https://github.com/seemly/shortcode-extended
+ * Plugin URI:        https://github.com/3n3a/acf-shortcode-extended
  * Description:       Enable ACF custom field usage, in a shortcode, in Query Loop block
  * Version:           0.0.2
  * Requires at least: 6.0
